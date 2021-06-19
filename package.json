@@ -3,14 +3,33 @@
   "version": "1.0.0",
   "description": "This is a simple code for getting random contributor github",
   "main": "App.js",
+  "files": [
+		"App.js"
+	],
+  "funding": "https://alestor123.is-a.dev/donate/",
+  "author": {
+		"name": "Alestor Aldous",
+		"url": "https://alestor123.github.io"
+	},
+	"engines": {
+		"node": ">=10"
+	},
   "scripts": {
     "test": "standard && node test.js | tap-spec"
   },
+  "keywords": [
+    "gh",
+		"repo",
+		"repository",
+		"page",
+		"github",
+		"api",
+    "random"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alestor123/RANDOM-CONTRIBUTOR.git"
   },
-  "author": "Alestor Aldous",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alestor123/RANDOM-CONTRIBUTOR/issues"
@@ -18,9 +37,9 @@
   "homepage": "https://github.com/alestor123/RANDOM-CONTRIBUTOR#readme",
   "devDependencies": {
     "standard": "^16.0.3",
-    "tap": "^15.0.9",
     "tap-spec": "^5.0.0"
   },
+  "tap": "^15.0.9",
   "dependencies": {
     "axios": "^0.21.1"
   }
