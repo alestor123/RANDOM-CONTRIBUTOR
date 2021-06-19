@@ -30,4 +30,4 @@ jobs:
       - run: npm install
       - run: npm test
         env:
-          GHTOKEN:${{secrets.GHTOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
