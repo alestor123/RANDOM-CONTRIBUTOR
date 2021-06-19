@@ -37,9 +37,9 @@
   "homepage": "https://github.com/alestor123/RANDOM-CONTRIBUTOR#readme",
   "devDependencies": {
     "standard": "^16.0.3",
+    "tap": "^15.0.9",
     "tap-spec": "^5.0.0"
   },
-  "tap": "^15.0.9",
   "dependencies": {
     "axios": "^0.21.1"
   }
